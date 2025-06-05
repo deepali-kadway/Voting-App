@@ -1,5 +1,86 @@
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: linear-gradient(to bottom right, rgb(223, 45, 45), yellow);
-    padding: 40px;
+    /* background-image: linear-gradient(to bottom right, rgb(223, 45, 45), yellow); */
+    padding: 30px;
+    background-color: rgb(200, 242, 162);
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(60, 77, 77);
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(30, 29, 29);
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(30, 29, 29);
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Space between cards */
+    justify-content: center;
+    justify-items: center;    
+}
+
+.card{
+    width: 290px;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 290px;
+  height: 200px;
+}
+
+.card-content{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-weight: 100;
+    font-size: small;
+}
+
+.vote-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.vote-button:hover {
+  background-color: #0056b3;
+}
+
+.vote-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+a{
+    text-align: center;
+    color: rgb(4, 40, 202);
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    margin: 10px 0;
 }
