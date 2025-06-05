@@ -1,26 +1,33 @@
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* background-image: linear-gradient(to bottom right, rgb(223, 45, 45), yellow); */
-    padding: 30px;
-    background-color: rgb(200, 242, 162);
+    padding: 10px;
+    background-color: rgb(27, 28, 27);
 }
 
 h1{
     text-align: center;
     font-size: 3em;
-    color: rgb(60, 77, 77);
+    color: rgb(86, 98, 98);
 }
 
 h2{
     text-align: center;
     font-size: 2em;
-    color: rgb(30, 29, 29);
+    color: rgb(112, 110, 110);
 }
 
 h3{
     text-align: center;
     font-size: 1.5em;
-    color: rgb(30, 29, 29);
+    color: rgb(143, 114, 114);
+}
+
+#timer{
+    text-align: left;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
 }
 
 #container{
@@ -78,7 +85,7 @@ h3{
 
 a{
     text-align: center;
-    color: rgb(4, 40, 202);
+    color: rgb(208, 18, 218);
     font-weight: bold;
     font-size: 1.2em;
     display: block;
